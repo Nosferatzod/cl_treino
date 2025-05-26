@@ -1,0 +1,31 @@
+/* Estilos para todos os questionários */
+.quiz-form .question {
+    transition: all 0.3s;
+    border-left: 4px solid transparent;
+}
+
+.quiz-form .question:hover {
+    border-left-color: var(--bs-primary);
+    background-color: rgba(0, 123, 255, 0.05);
+}
+
+/* Timer de segurança */
+#timer {
+    font-weight: bold;
+    color: var(--bs-danger);
+}
+
+/* Imagens em questões */
+.quiz-form img {
+    max-height: 200px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .quiz-form .card-body {
+        padding: 1rem;
+    }
+}
