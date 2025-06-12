@@ -92,10 +92,10 @@ session_start();
                     que desejam se qualificar rapidamente nas principais áreas industriais.
                 </p>
                 <ul class="list-unstyled">
-                    <li class="mb-2"><i class="fas fa-check-circle me-2"></i> Cursos objetivos e práticos</li>
-                    <li class="mb-2"><i class="fas fa-check-circle me-2"></i> Avaliações com feedback imediato</li>
-                    <li class="mb-2"><i class="fas fa-check-circle me-2"></i> Certificação digital</li>
-                    <li class="mb-2"><i class="fas fa-check-circle me-2"></i> Acompanhamento de progresso</li>
+                    <li class="mb-2 text-white"><i class="fas fa-check-circle me-2"></i> Cursos objetivos e práticos</li>
+                    <li class="mb-2 text-white"><i class="fas fa-check-circle me-2"></i> Avaliações com feedback imediato</li>
+                    <li class="mb-2 text-white"><i class="fas fa-check-circle me-2"></i> Certificação digital</li>
+                    <li class="mb-2 text-white"><i class="fas fa-check-circle me-2"></i> Acompanhamento de progresso</li>
                 </ul>
             </div>
             <div class="col-lg-6">
@@ -174,6 +174,21 @@ session_start();
                 </div>
             </div>
         </section>
+            <!-- Acesso Premium -->
+    <section class="py-5 bg-dark text-white">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-4 text-warning">Acesso Premium</h2>
+            <p class="lead">Desbloqueie conteúdos exclusivos e avançados para acelerar ainda mais sua carreira profissional.</p>
+            <ul class="list-unstyled mb-4">
+                <li class="text-white"><i class="fas fa-star me-2 text-warning"></i> Cursos exclusivos para assinantes</li>
+                <li class="text-white"><i class="fas fa-star me-2 text-warning"></i> Conteúdos atualizados mensalmente</li>
+                <li class="text-white"><i class="fas fa-star me-2 text-warning"></i> Suporte direto com especialistas</li>
+                <li class="text-white"><i class="fas fa-star me-2 text-warning"></i> Certificados premium reconhecidos</li>
+            </ul>
+            <a href="premium.php" class="btn btn-warning btn-lg">Quero ser Premium</a>
+        </div>
+    </section>
+
             </div>
         </div>
     </section>

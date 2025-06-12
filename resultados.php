@@ -164,6 +164,7 @@ $titulo = "Resultados - " . ucfirst($area);
                     <i class="fas fa-redo me-2"></i> Tentar Novamente
                 </a>
             </div>
+            
         </section>
 
         <!-- Histórico Completo -->
@@ -227,6 +228,7 @@ $titulo = "Resultados - " . ucfirst($area);
                                             onclick="return confirm('Tem certeza que deseja excluir este resultado?')">
                                             <i class="fas fa-trash">ExcLuir</i>
                                         </a>
+                                        
                                     </td>
                                 </tr>
                             <?php endforeach; ?>
