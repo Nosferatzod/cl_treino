@@ -8,18 +8,18 @@ if (!isset($_SESSION['usuario_id'])) {
 }
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $respostas_corretas = [
-        'q1' => 'c', 
-        'q2' => 'a',
-        'q3' => 'b',
-        'q4' => 'c',
-        'q5' => 'b',
-        'q6' => 'a',
-        'q7' => 'b',
-        'q8' => 'c',
-        'q9' => 'b',
-        'q10' => 'a'
-    ];
+$respostas_corretas = [
+    'q1' => 'b',  // NR 6 (EPIs)
+    'q2' => 'a',  // Risco Químico
+    'q3' => 'b',  // Protetor auricular
+    'q4' => 'c',  // Fornecer gratuitamente e em perfeito estado
+    'q5' => 'b',  // Extintor de incêndio (EPC)
+    'q6' => 'a',  // NR 7 (PCMSO)
+    'q7' => 'b',  // Proteger o trabalhador contra riscos à saúde
+    'q8' => 'c',  // NR 35 (Trabalhos em altura)
+    'q9' => 'b',  // Grade de proteção (NÃO é EPI, é EPC)
+    'q10' => 'a'  // NR 5 (CIPA)
+];
 
     $pontos = 0;
     foreach ($respostas_corretas as $pergunta => $correta) {

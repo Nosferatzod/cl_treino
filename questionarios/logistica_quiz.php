@@ -9,10 +9,14 @@ if (!isset($_SESSION['usuario_id'])) {
 
 // Processa as respostas
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $respostas_corretas = [
-        'q1' => 'b', 'q2' => 'a', 'q3' => 'c', 'q4' => 'd', 'q5' => 'a',
-        'q6' => 'b', 'q7' => 'c', 'q8' => 'a', 'q9' => 'd', 'q10' => 'b'
-    ];
+$respostas_corretas = [
+    'q1' => 'b',
+    'q2' => 'a',
+    'q3' => 'b',
+    'q4' => 'b',
+    'q5' => 'a'
+];
+
     
     $pontos = 0;
     foreach ($respostas_corretas as $pergunta => $correta) {

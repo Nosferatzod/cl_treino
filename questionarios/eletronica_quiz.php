@@ -8,18 +8,18 @@ if (!isset($_SESSION['usuario_id'])) {
 }
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $respostas_corretas = [
-        'q1' => 'c',
-        'q2' => 'd', 
-        'q3' => 'c',
-        'q4' => 'b',
-        'q5' => 'b',
-        'q6' => 'c',
-        'q7' => 'a',
-        'q8' => 'b',
-        'q9' => 'd',
-        'q10' => 'b'
-    ];
+$respostas_corretas = [
+    'q1' => 'c',
+    'q2' => 'd',  // Alterado de 'D' para 'd'
+    'q3' => 'c',
+    'q4' => 'b',
+    'q5' => 'b',
+    'q6' => 'c',
+    'q7' => 'a',
+    'q8' => 'b',
+    'q9' => 'd',
+    'q10' => 'b'
+];
     
     $pontos = 0;
     foreach ($respostas_corretas as $pergunta => $correta) {
